@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suzuki V-Strom 160 | Domina la Aventura</title>
+    <!-- Fuentes e Iconos -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="logo">SUZUKI <span>V-STROM</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#features">Características</a></li>
+            <li><a href="#specs">Ficha Técnica</a></li>
+            <li><a href="#contact" class="btn-nav">Cotizar</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Domina cualquier terreno</h1>
+            <p>Descubre la nueva Suzuki V-Strom 160. Diseño Adventure, potencia eficiente y confort absoluto para tus viajes.</p>
+            <a href="#contact" class="btn-primary">Solicitar Prueba de Manejo</a>
+        </div>
+    </header>
+
+    <!-- Características -->
+    <section id="features" class="features">
+        <h2>Diseñada para la Aventura</h2>
+        <div class="grid-features">
+            <div class="card">
+                <i class="fas fa-motorcycle"></i>
+                <h3>Motor Eficiente</h3>
+                <p>Motor de 162 cc con inyección electrónica que ofrece el equilibrio perfecto entre potencia y rendimiento de combustible.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-mountain"></i>
+                <h3>Suspensión de Largo Recorrido</h3>
+                <p>Horquilla telescópica y monoamortiguador trasero para absorber los baches de la ciudad y la montaña.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Frenos ABS</h3>
+                <p>Sistema de frenos antibloqueo en la rueda delantera para una frenada segura en cualquier condición climática.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-gas-pump"></i>
+                <h3>Tanque de 12 Litros</h3>
+                <p>Autonomía extendida para que solo te preocupes por el camino, no por la próxima estación de servicio.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ficha Técnica -->
+    <section id="specs" class="specs">
+        <h2>Ficha Técnica</h2>
+        <div class="table-container">
+            <table>
+                <tr><th>Cilindrada</th><td>162 cc</td></tr>
+                <tr><th>Potencia Máxima</th><td>14.1 HP @ 8000 rpm</td></tr>
+                <tr><th>Torque Máximo</th><td>13.8 Nm @ 6000 rpm</td></tr>
+                <tr><th>Peso en Seco</th><td>141 kg</td></tr>
+                <tr><th>Capacidad de Tanque</th><td>12 Litros</td></tr>
+                <tr><th>Altura del Asiento</th><td>795 mm</td></tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="contact">
+        <h2>Cotiza tu V-Strom 160</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Tu Nombre" required>
+            <input type="email" id="email" placeholder="Tu Correo Electrónico" required>
+            <input type="tel" id="phone" placeholder="Tu Teléfono" required>
+            <button type="submit" class="btn-primary">Enviar Solicitud</button>
+        </form>
+        <p id="form-message" class="hidden">¡Gracias por tu interés! Un asesor se contactará contigo pronto.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Proyecto Académico - Suzuki V-Strom 160. No afiliado a Suzuki Motors.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

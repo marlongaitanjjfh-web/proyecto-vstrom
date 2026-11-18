@@ -20,7 +20,7 @@ pipeline {
             steps {
                 echo "Construyendo la imagen Docker: ${env.IMAGE_NAME}..."
                 // Construye la imagen usando el Dockerfile de la carpeta actual
-                sh "docker build -t ${env.IMAGE_NAME}:${env.BUILD_NUMBER} ."
+                sh "docker build -no-cache -t ${env.IMAGE_NAME}:${env.BUILD_NUMBER} ."
                 // También le ponemos el tag 'latest' para facilidad
                 sh "docker tag ${env.IMAGE_NAME}:${env.BUILD_NUMBER} ${env.IMAGE_NAME}:latest"
             }

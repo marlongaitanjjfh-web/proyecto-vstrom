@@ -73,7 +73,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('Fondo-nuevo.jpeg') center/cover;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('Fondo-nuevo.jpg') center/cover;
     display: flex;
     align-items: center;
     padding: 0 50px;
